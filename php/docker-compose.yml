@@ -9,7 +9,7 @@ services:
         depends_on:
             - db
         volumes:
-            - ./php/nama-projek:/var/www/html/ (nama-projek diubah sesuai nama folder projek php)
+            - ./php/src:/var/www/html/
         ports:
             - 8000:80
     db:
